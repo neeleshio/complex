@@ -19,7 +19,7 @@ describe('Name component', () => {
         const heading = screen.getByRole('heading');
         const span = screen.getByLabelText('designation');
 
-        expect(heading.textContent).toBe(`Hi 👋🏻, I'm Neelesh.`);
+        expect(heading.textContent).toBe(`Hi 👋, I'm Neelesh.`);
         expect(span.textContent).toBe(`A Frontend Software Development Engineer.`);
     });
 });
