@@ -1,6 +1,5 @@
 export { default as ArticleCard } from './ArticleCard';
 export { default as Backdrop } from './Backdrop';
-export { default as BlogNavbar } from './BlogNavbar';
 export { default as Copyright } from './Copyright';
 export { default as CustomScroll } from './CustomScroll';
 export { default as FooterCard } from './FooterCard';
@@ -13,4 +12,3 @@ export { default as SectionHeader } from './SectionHeader';
 export { default as SkillCard } from './SkillCard';
 export { default as Socials } from './Socials';
 export { default as WorkCard } from './WorkCard';
-export { default as ShareButtons } from './ShareButtons';

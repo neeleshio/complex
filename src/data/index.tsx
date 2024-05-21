@@ -191,10 +191,10 @@ export const PROJECTS = [
         id: 4,
         name: 'Blog Wall',
         image: BlogLogo,
-        description: 'Personal Mdx & Nextjs powered blog site showcase.',
+        description: 'MarkdownX & Nextjs powered tech blog site.',
         stack: [ReactIcon, OpenaiIcon, ReduxIcon, StyledCompIcon],
         latest: true,
-        link: 'https://www.neeleshio.cloud/blogs'
+        link: 'https://blog.neeleshio.xyz/'
     }
 ];
 
@@ -208,13 +208,13 @@ export const BLOGS = [
             </>
         ),
         image: JsIcon,
-        link: '/blogs/async-vs-defer?title=Async%20vs%20Defer%20attributes&topic=JavaScript&date=16%20April%202024'
+        link: 'https://blog.neeleshio.xyz/async-vs-defer?title=Async%20vs%20Defer%20attributes&topic=JavaScript&date=16%20April%202024'
     },
     {
         id: 2,
         title: <span className="custom-color">React SEO and Challenges.</span>,
         image: ReactBlogIcon,
-        link: '/blogs/react-seo-and-challenges?title=React%20SEO%20and%20Challenges&topic=React&date=1%20May%202024'
+        link: 'https://blog.neeleshio.xyz/react-seo-and-challenges?title=React%20SEO%20and%20Challenges&topic=React&date=1%20May%202024'
     },
     {
         id: 3,
@@ -225,7 +225,7 @@ export const BLOGS = [
             </>
         ),
         image: CssIcon,
-        link: '/blogs/css-transform-and-transition?title=CSS%20Transform%20and%20Transition%20Properties&topic=CSS&date=11%20May%202024'
+        link: 'https://blog.neeleshio.xyz/css-transform-and-transition?title=CSS%20Transform%20and%20Transition%20Properties&topic=CSS&date=11%20May%202024'
     },
     {
         id: 4,
@@ -236,7 +236,7 @@ export const BLOGS = [
             </>
         ),
         image: HtmlIcon,
-        link: '/blogs/preload-preconnect-prefetch?title=Browser%20Resource%20Hints:%20Preload,%20Preconnect%20and%20Prefetch&topic=HTML&date=8%20May%202024'
+        link: 'https://blog.neeleshio.xyz/preload-preconnect-prefetch?title=Browser%20Resource%20Hints:%20Preload,%20Preconnect%20and%20Prefetch&topic=HTML&date=8%20May%202024'
     },
     {
         id: 5,
@@ -247,7 +247,7 @@ export const BLOGS = [
             </>
         ),
         image: CssIcon,
-        link: '/blogs/css-frameworks-and-preprocessors?title=CSS%20Frameworks%20and%20Preprocessors&topic=CSS&date=9%20May%202024'
+        link: 'https://blog.neeleshio.xyz/css-frameworks-and-preprocessors?title=CSS%20Frameworks%20and%20Preprocessors&topic=CSS&date=9%20May%202024'
     }
 ];
 
@@ -256,7 +256,7 @@ export const NAVITEMS = [
     { id: 2, title: 'Work History', link: '' },
     { id: 3, title: 'Projects', link: '' },
     { id: 4, title: 'Quick Articles', link: '' },
-    { id: 5, title: 'Blog', link: '/blogs', target: '_blank' },
+    { id: 5, title: 'Blog', link: 'https://blog.neeleshio.xyz/', target: '_blank' },
     {
         id: 6,
         title: 'Resume',
@@ -310,32 +310,5 @@ export const QUICK_LINKS = [
         id: 3,
         name: 'LinkedIn',
         link: 'https://linkedin.com/in/neeleshio'
-    }
-];
-
-export const SHARE_BUTTONS = (title: string) => [
-    {
-        id: 1,
-        name: 'whatsapp',
-        icon: FaWhatsapp,
-        link: `https://api.whatsapp.com:/send?text=${title}`
-    },
-    {
-        id: 2,
-        name: 'twitter',
-        icon: FaXTwitter,
-        link: `https://twitter.com/intent/tweet?text=${title}`
-    },
-    {
-        id: 3,
-        name: 'mail',
-        icon: IoIosMail,
-        link: `mailto:?subject=${title}&body=Hi,I found this website and thought you might like it http://www.geocities.com/wowhtml/"`
-    },
-    {
-        id: 4,
-        name: 'copy',
-        icon: IoIosLink,
-        link: ''
     }
 ];

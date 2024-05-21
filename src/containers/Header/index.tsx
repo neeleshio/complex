@@ -99,26 +99,14 @@ const Header = ({ page }: HeaderPropsType) => {
 
     return (
         <>
-            {page === 'home' ? (
-                <Navbar
-                    navItems={NAVITEMS}
-                    handleNavMenu={handleNavMenu}
-                    dispatch={dispatch}
-                    handleToggleTheme={handleToggleTheme}
-                    dark={dark}
-                    handleOpenMobileNav={handleOpenMobileNav}
-                />
-            ) : null}
-            {page === 'blog' ? (
-                <BlogNavbar
-                    navItems={NAVITEMS}
-                    handleNavMenu={handleNavMenu}
-                    dispatch={dispatch}
-                    handleToggleTheme={handleToggleTheme}
-                    dark={dark}
-                    handleOpenMobileNav={handleOpenMobileNav}
-                />
-            ) : null}
+            <Navbar
+                navItems={NAVITEMS}
+                handleNavMenu={handleNavMenu}
+                dispatch={dispatch}
+                handleToggleTheme={handleToggleTheme}
+                dark={dark}
+                handleOpenMobileNav={handleOpenMobileNav}
+            />
 
             <DesktopNavMenu
                 open={open}

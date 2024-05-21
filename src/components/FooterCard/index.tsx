@@ -26,7 +26,7 @@ const FooterCard = ({ obj, idx }: FooterCardType) => {
                             <li
                                 className="text-footer-text-color mb-[0.8rem] hover:underline"
                                 key={el.id}>
-                                <Link href={'/blogs/all'}>{el['name']}</Link>
+                                <Link href={'https://blog.neeleshio.xyz/all'}>{el['name']}</Link>
                             </li>
                         ))}
                     </ul>

@@ -6,5 +6,3 @@ export { default as Articles } from './Articles';
 export { default as Header } from './Header';
 export { default as Footer } from './Footer';
 export { default as QuickLinks } from './QuickLinks';
-export { default as Blogs } from './Blogs';
-export { default as Roadmaps } from './Roadmaps';
